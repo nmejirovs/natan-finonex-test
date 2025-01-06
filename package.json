@@ -1,0 +1,18 @@
+{
+  "name": "natan-finonex-test",
+  "version": "1.0.0",
+  "repository": "https://github.com/nmejirovs/natan-finonex-test.git",
+  "author": "natan.mejirovsky@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "serverStart": "node server.js"
+  },
+  "dependencies": {
+    "@sequelize/postgres": "^7.0.0-alpha.43",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "lodash": "^4.17.21",
+    "yargs": "^17.7.2"
+  }
+}
